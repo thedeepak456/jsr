@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // array methods
+      let fruits = ["mango", "banana", "orange", "pineapple"];
+        // we use length method to check the length of array values. length count start with 1.
+      document.write(fruits.length,"<Br>");
+
+    //   if we want to add any value in the end of array we use push() method 
+
+    fruits.push("grapes")
+    document.write(fruits,"<br>")
+
+    // delete form last use pop()
+    fruits.pop()
+    fruits.pop()
+
+    document.write(fruits,"<br>")
+
+    // add in start use unshift 
+    fruits.unshift("apple")
+    fruits.unshift("muskmelon")
+
+
+    document.write(fruits, "<br>")
+
+    fruits.shift()
+    document.write(fruits)
+    </script>
+  </body>
+</html>
